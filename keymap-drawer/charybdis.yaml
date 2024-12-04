@@ -12,8 +12,8 @@ layers:
   - O
   - P
   - L_BASE L_PHOTO L_GAME
-  - {t: TAB, h: LEFT SHIFT}
-  - {t: A, h: NAV}
+  - {t: TAB, h: NAV}
+  - {t: A, h: LSHIFT}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LCMD}
@@ -24,7 +24,7 @@ layers:
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: LEFT SHIFT}
   - DEL
-  - GLOBE
+  - Ctl+ SPACE
   - Z
   - {t: X, h: MEH}
   - {t: C, h: HYPER}
@@ -96,8 +96,8 @@ layers:
   - PANE ▼
   - PANE ▶
   - ''
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
