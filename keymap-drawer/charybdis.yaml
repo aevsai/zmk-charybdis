@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - L_BASE L_PHOTO L_GAME
-  - {t: TAB, h: NAV}
+  - {t: TAB, h: MOUSE}
   - {t: A, h: LSHIFT}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
@@ -39,7 +39,7 @@ layers:
   - SCRL SLOW
   - L CLK
   - {t: SPACE, h: NUM}
-  - {t: RETURN, h: MOUSE}
+  - {t: RETURN, h: NAV}
   - {t: BACK SPACE, h: SYM}
   NUM:
   - {t: ▽, type: trans}
@@ -96,7 +96,7 @@ layers:
   - PANE ▼
   - PANE ▶
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,7 +123,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   SYM:
   - ''
@@ -266,7 +266,7 @@ layers:
   - ''
   - ''
   - ''
-  - TAB
+  - {t: TAB, type: held}
   - BACK
   - MOVE L
   - MOVE D
@@ -293,7 +293,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RETURN, type: held}
+  - RETURN
   - {t: ▽, type: trans}
   SLOW:
   - {t: ▽, type: trans}
