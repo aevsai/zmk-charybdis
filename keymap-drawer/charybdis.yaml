@@ -12,19 +12,19 @@ layers:
   - O
   - P
   - L_BASE L_PHOTO L_GAME
-  - {t: TAB, h: LCMD}
+  - {t: TAB, h: LEFT SHIFT}
   - {t: A, h: NAV}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
-  - {t: F, h: LEFT SHIFT}
+  - {t: F, h: LCMD}
   - G
   - H
-  - {t: J, h: LEFT SHIFT}
+  - {t: J, h: LCMD}
   - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: LCMD}
+  - {t: ;, h: LEFT SHIFT}
   - DEL
-  - SEARCH
+  - GLOBE
   - Z
   - {t: X, h: MEH}
   - {t: C, h: HYPER}
@@ -38,9 +38,9 @@ layers:
   - DEV TOOLS
   - SCRL SLOW
   - L CLK
-  - {t: BACK SPACE, h: NUM}
+  - {t: SPACE, h: NUM}
   - {t: RETURN, h: MOUSE}
-  - {t: SPACE, h: SYM}
+  - {t: BACK SPACE, h: SYM}
   NUM:
   - {t: ▽, type: trans}
   - ''
